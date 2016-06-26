@@ -124,8 +124,8 @@ public class TestSettingsFragment extends MainFragment implements TestSettingsLa
             amount = calculateAmount(settings);
         }
 
-        this.status.setText(amount + " " + (amount == 1 ? getString(R.string.fragment_test_settings_vocable_selected) :
-                getString(R.string.fragment_test_settings_vocables_selected)));
+        this.status.setText(etUndoManager().size();
+        String text = getQuantityString(R.plurals.fragment_test_settings_vocables_selected, amount, amount););
     }
 
     @Override
