@@ -140,6 +140,14 @@
         <item quantity="other">%d glosor borttagna</item>
     </plurals>
 
+    <plurals name="vocables">
+        <item quantity="one">%d glosa</item>
+        <item quantity="other">%d glosor</item>
+    </plurals>
+    <plurals name="units">
+        <item quantity="one">%d grupp</item>
+        <item quantity="other">%d grupper</item>
+    </plurals>
     <string name="vocable">Glosa</string>
     <string name="vocables">Glosor</string>
 
