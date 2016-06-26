@@ -80,6 +80,20 @@
         <item quantity="other">%d Vokabeln gelöscht</item>
     </plurals>
 
+
+    <plurals name="vocables">
+        <item quantity="one">%d Vokabel</item>
+        <item quantity="other">%d Vokabeln</item>
+    </plurals>
+    <plurals name="units">
+        <item quantity="one">%d Lektion</item>
+        <item quantity="other">%d Lektionen</item>
+    </plurals>
+    <string name="vocable">Vokabel</string>
+    <string name="vocables">Vokabeln</string>
+
+    <string name="notification_reminder_content">Du solltest Vokabeln lernen!</string>
+
     <string name="google_service_connection_unknown_error">Ein unbekannter Fehler ist aufgetreten. Überprüfe deine Internetverbindung. Sollte dieser Fehler öfters auftreten, benachrichtige bitte den Entwickler.</string>
     <string name="import_error_storage">Import fehlgeschlagen: Es gab ein Problem mit dem Speicher</string>
     <string name="import_title">Import</string>
@@ -88,7 +102,6 @@
     <string name="menu_vocable_list_export">Export</string>
     <string name="menu_vocable_list_import">Import</string>
     <string name="menu_vocable_list_sort">Sortieren</string>
-    <string name="notification_reminder_content">Du solltest Vokabeln lernen!</string>
     <string name="preference_mail_summary">Gib Feedback, mache einen Vorschlag oder frage etwas</string>
     <string name="preference_mail_title">Mail an den Entwickler</string>
     <string name="preferences_ads_off">Werbung ist deaktiviert. Werbung unterstützt die Entwicklung dieser App</string>
@@ -113,8 +126,7 @@
     <string name="preferences_reminder_time_title">Erinnerungszeit</string>
     <string name="preferences_reminder_title">Erinnerungen</string>
     <string name="test_question">Was bedeutet</string>
-    <string name="vocable">Vokabel</string>
-    <string name="vocables">Vokabeln</string>
+
     <string name="mode_classic_title">Klassischer Modus</string>
     <string name="mode_pair_title">Paar Modus</string>
     <string name="mode_time_title">Zeit Modus</string>
