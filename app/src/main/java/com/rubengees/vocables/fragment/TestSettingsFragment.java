@@ -109,8 +109,7 @@ public class TestSettingsFragment extends MainFragment implements TestSettingsLa
                     getActivity().getFragmentManager().beginTransaction().replace(R.id.content,
                             TestFragment.newInstance(mode, settings)).commit();
                 } else {
-                    SnackbarManager.show(Snackbar.make(root, getString(R.string.fragment_test_settings_error_not_enough_vocables)
-                            + " " + mode.getMinAmount(), Snackbar.LENGTH_LONG), null, null);
+                    SnackbarManager.show(Snackbar.make(root, getQuantityString(R.plurals.fragment_test_settings_error_not_enough_vocables, mode.getMinAmount(), mode.getMinAmount()), Snackbar.LENGTH_LONG), null, null);
                 }
             }
         });
@@ -125,7 +124,7 @@ public class TestSettingsFragment extends MainFragment implements TestSettingsLa
         }
 
         this.status.setText(etUndoManager().size();
-        String text = getQuantityString(R.plurals.fragment_test_settings_vocables_selected, amount, amount););
+        String text = getQuantityString(R.plurals.fragment_test_settings_vocables_selected, amount, amount);
     }
 
     @Override
