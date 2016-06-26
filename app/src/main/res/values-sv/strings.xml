@@ -175,7 +175,11 @@
     <string name="menu_vocable_list_export">Exportera</string>
     <string name="preferences_source_summary">Visa källkoden på GitHub.com</string>
     <string name="preferences_source_title">Källkod</string>
-    <string name="fragment_test_settings_error_not_enough_vocables">Du har inte valt tillräckligt många glosor. Du behöver minst</string>
+
+    <plurals name="fragment_test_settings_error_not_enough_vocables">
+        <item quantity="one">Du har inte valt tillräckligt många glosor. Välj minst %d glosa</item>
+        <item quantity="other">Du har inte valt tillräckligt många glosor. Välj minst %d glosor</item>
+    </plurals>
     <plurals name="fragment_test_settings_vocables_selected">
         <item quantity="one">%d glosa vald</item>
         <item quantity="other">%d glosor valda</item>
