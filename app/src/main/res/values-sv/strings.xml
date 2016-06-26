@@ -176,8 +176,10 @@
     <string name="preferences_source_summary">Visa källkoden på GitHub.com</string>
     <string name="preferences_source_title">Källkod</string>
     <string name="fragment_test_settings_error_not_enough_vocables">Du har inte valt tillräckligt många glosor. Du behöver minst</string>
-    <string name="fragment_test_settings_vocable_selected">Glosa vald</string>
-    <string name="fragment_test_settings_vocables_selected">Glosor valda</string>
+    <plurals name="fragment_test_settings_vocables_selected">
+        <item quantity="one">%d glosa vald</item>
+        <item quantity="other">%d glosor valda</item>
+    </plurals>
     <string name="dialog_vocable_hint_input_hint">Ledtråd</string>
     <string name="test_classic_correct">Rätt!</string>
     <string name="test_classic_wrong">Fel! Rätt svar är:</string>
