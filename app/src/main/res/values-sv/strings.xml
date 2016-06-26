@@ -135,7 +135,10 @@
     <string name="activity_about_title">Om</string>
 
     <string name="fragment_vocable_list_undo">Ångra</string>
-    <string name="fragment_vocable_list_deleted_message">borttagen</string>
+    <plurals name="fragment_vocable_list_deleted_message">
+        <item quantity="one">%d glosa borttagen</item>
+        <item quantity="other">%d glosor borttagna</item>
+    </plurals>
 
     <string name="vocable">Glosa</string>
     <string name="vocables">Glosor</string>
