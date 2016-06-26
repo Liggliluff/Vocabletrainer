@@ -387,9 +387,9 @@ public class VocableListFragment extends MainFragment implements UnitAdapter.OnI
         int amount = adapter.getCount();
         String subTitle = amount + " ";
         if (adapter instanceof UnitAdapter) {
-            subTitle += amount == 1 ? getString(R.string.unit) : getString(R.string.units);
+            subTitle += getQuantityString(R.plurals.units, amount, amount);
         } else if (adapter instanceof VocableAdapter) {
-            subTitle += amount == 1 ? getString(R.string.vocable) : getString(R.string.vocables);
+            subTitle += getQuantityString(R.plurals.vocables, amount, amount);
         }
 
         getToolbarActivity().setSubtitle(subTitle);
