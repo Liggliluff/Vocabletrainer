@@ -310,8 +310,7 @@ public class VocableListFragment extends MainFragment implements UnitAdapter.OnI
 
     private void showSnackbar() {
         int amount = getUndoManager().size();
-        String text = amount + " " + (amount == 1 ? getString(R.string.vocable) : getString(R.string.vocables))
-                + " " + getString(R.string.fragment_vocable_list_deleted_message);
+        String text = getQuantityString(R.plurals.fragment_vocable_list_deleted_message, amount, amount);
 
         if (SnackbarManager.hasSnackbar()) {
             SnackbarManager.update(text);
