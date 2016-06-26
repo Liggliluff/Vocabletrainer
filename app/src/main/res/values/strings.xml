@@ -144,6 +144,14 @@
         <item quantity="other">%d vocables deleted</item>
     </plurals>
 
+    <plurals name="vocables">
+        <item quantity="one">%d vocable</item>
+        <item quantity="other">%d vocables</item>
+    </plurals>
+    <plurals name="units">
+        <item quantity="one">%d unit</item>
+        <item quantity="other">%d units</item>
+    </plurals>
     <string name="vocable">Vocable</string>
     <string name="vocables">Vocables</string>
 
