@@ -75,7 +75,11 @@
     <string name="fragment_test_settings_rate_okay">Akzeptable Vokabeln und schlechter</string>
     <string name="fragment_vocable_list_title">Vokabelliste</string>
     <string name="fragment_vocable_list_undo">Rückgängig</string>
-    <string name="fragment_vocable_list_deleted_message">gelöscht</string>
+    <plurals name="fragment_vocable_list_deleted_message">
+        <item quantity="one">%d Vokabel gelöscht</item>
+        <item quantity="other">%d Vokabeln gelöscht</item>
+    </plurals>
+
     <string name="google_service_connection_unknown_error">Ein unbekannter Fehler ist aufgetreten. Überprüfe deine Internetverbindung. Sollte dieser Fehler öfters auftreten, benachrichtige bitte den Entwickler.</string>
     <string name="import_error_storage">Import fehlgeschlagen: Es gab ein Problem mit dem Speicher</string>
     <string name="import_title">Import</string>
