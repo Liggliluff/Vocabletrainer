@@ -179,7 +179,10 @@
     <string name="menu_vocable_list_export">Export</string>
     <string name="preferences_source_summary">View the Source Code at GitHub.com</string>
     <string name="preferences_source_title">Source Code</string>
-    <string name="fragment_test_settings_error_not_enough_vocables">You don\'t have enough Vocables selected. You need at least</string>
+    <plurals name="fragment_test_settings_error_not_enough_vocables">
+        <item quantity="one">You don\'t have enough Vocables selected. You need at least %d</item>
+        <item quantity="other">You don\'t have enough Vocables selected. You need at least %d</item>
+    </plurals>
     <plurals name="fragment_test_settings_vocables_selected">
         <item quantity="one">%d vocable selected</item>
         <item quantity="other">%d vocables selected</item>
