@@ -180,8 +180,10 @@
     <string name="preferences_source_summary">View the Source Code at GitHub.com</string>
     <string name="preferences_source_title">Source Code</string>
     <string name="fragment_test_settings_error_not_enough_vocables">You don\'t have enough Vocables selected. You need at least</string>
-    <string name="fragment_test_settings_vocable_selected">Vocable selected</string>
-    <string name="fragment_test_settings_vocables_selected">Vocables selected</string>
+    <plurals name="fragment_test_settings_vocables_selected">
+        <item quantity="one">%d vocable selected</item>
+        <item quantity="other">%d vocables selected</item>
+    </plurals>
     <string name="dialog_vocable_hint_input_hint">Hint</string>
     <string name="test_classic_correct">Correct!</string>
     <string name="test_classic_wrong">Wrong! Correct:</string>
