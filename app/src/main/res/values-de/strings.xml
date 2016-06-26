@@ -140,8 +140,10 @@
     <string name="help_export_title">Export</string>
     <string name="help_delete_vocables_title">Vokabeln löschen</string>
     <string name="help_add_vocables_title">Vokabeln hinzufügen</string>
-    <string name="fragment_test_settings_vocable_selected">Vokabel ausgewählt</string>
-    <string name="fragment_test_settings_vocables_selected">Vokabeln ausgewählt</string>
+    <plurals name="fragment_test_settings_vocables_selected">
+        <item quantity="one">%d Vokabel ausgewählt</item>
+        <item quantity="other">%d Vokabeln ausgewählt</item>
+    </plurals>
     <string name="fragment_test_settings_error_not_enough_vocables">Du hast nicht genug Vokabeln ausgewählt. Du brauchst mindestens</string>
     <string name="mode_classic_help">Im Klassischen Modus lernst du Vokabeln, indem du die Übersetzungen für jede angibst. Um eine Antwort zu geben, tippst du einfach deine Antwort in die Textbox und klickst den \'weiter\' Knopf rechts.</string>
     <string name="mode_pair_help">Im Paar Modus musst du zwei zusammenpassende Bedeutungen einer Vokabel finden. Wenn du zwei passende gefunden hast, klicke auf die erste. Der Knopf ist nun aktiviert, was du an der dunkleren Farbe erkennen kannst. Dann klickst du auf den zweiten Knopf um deine Antwort zu geben. Wenn du den ersten Knopf abwählen möchtest klicke ihn einfach ein zweites mal.</string>
